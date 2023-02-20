@@ -124,8 +124,8 @@ subjectAltName = @alt_names
 
 [ alt_names ]
 DNS.1 = ${SERVER_DOMAIN}
+IP.1 = 127.0.0.1
 #DNS.2 = www.${SERVER_DOMAIN}
-#IP.1 = 192.168.1.1 
 #IP.2 = 192.168.1.2
 
 EOF
@@ -154,6 +154,7 @@ subjectAltName = @alt_names
 
 [alt_names]
 DNS.1 = ${SERVER_DOMAIN}
+IP.1 = 127.0.0.1
 
 EOF
 
